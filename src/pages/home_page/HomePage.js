@@ -10,6 +10,7 @@ import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
 import Contactus from "../../components/contactus/Contactus";
+import profileImg from "../../images/Profile.png";
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> MD MAFUJUL HASAN</strong>
+                <strong className="main-name"> SAISREE KODURI</strong>
               </h1>
 
               <div className="typing-homeclass">
@@ -41,7 +42,7 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/MD-MAFUJUL-HASAN"
+                      href="https://github.com/sreekoduri"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -51,42 +52,12 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.linkedin.com/in/md-mafujul-hasan/"
+                      href="https://www.linkedin.com/in/satyasree-koduri/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
                     >
                       <FaLinkedinIn />
-                    </a>
-                  </li>
-                  <li className="socialicons">
-                    <a
-                      href="https://www.instagram.com/_md_mafujul_hasan_/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour homesocialicons"
-                    >
-                      <AiFillInstagram />
-                    </a>
-                  </li>
-                  <li className="socialicons">
-                    <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour homesocialicons"
-                    >
-                      <FaFacebookF />
-                    </a>
-                  </li>
-                  <li className="socialicons">
-                    <a
-                      href="mailto:mdtonmoy13.mt@gmail.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour homesocialicons"
-                    >
-                      <FaGoogle />
                     </a>
                   </li>
                 </ul>
@@ -96,11 +67,17 @@ export default function Home() {
               <div className="img-home-main">
                 <Tilt>
                   <Fade cascade>
-                    <img
-                      src="./profile.png"
-                      alt="home pic"
-                      className="img-fluid"
-                    />
+                   <img
+  src={profileImg}
+  alt="home pic"
+  className="img-fluid"
+  style={{
+    borderRadius: "50%",
+    width: "250px",
+    height: "250px",
+    objectFit: "cover",
+  }}
+/>
                   </Fade>
                 </Tilt>
               </div>

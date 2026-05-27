@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
 import ucsc from "../../images/ucsc.png";
-import ufm from "../../images/ufm.png";
-import cbta from "../../images/CBT&A.pdf";
+import workindia from "../../images/excel_certificate.jpeg";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
 
@@ -29,7 +28,7 @@ export default function Certification() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href="https://www.hackerrank.com/certificates/3573ea1a35bb"
+                          href="https://www.hackerrank.com/certificates/c4f11c7fdc22"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -55,7 +54,7 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Problem Solving Basic : Programming Fundamentals
+                          SQL Basic : Programming Fundamentals
                         </h2>
                         <h3
                           className="cert-body-subtitle"
@@ -72,16 +71,20 @@ export default function Certification() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href={cbta}
-                          target="_blank"
-                          rel="noopener noreferrer"
+                         href={workindia}
+                         target="_blank"
+                         rel="noopener noreferrer"
                         >
                           <div className="content-overlay"></div>
                           <div
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ufm} alt={ufm} />}
+                           <img
+  className="logo_img"
+  src={workindia}
+  alt="WorkIndia Certificate"
+/>
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -94,19 +97,19 @@ export default function Certification() {
                         </a>
                       </div>
                       <div className="cert-body">
-                        <h2
-                          className="cert-body-title"
-                          style={{ fontWeight: 700, color: "#fbd9ad" }}
-                        >
-                          Basic Computer Application for Everyone: IT Support
-                          Technician level-1
-                        </h2>
-                        <h3
-                          className="cert-body-subtitle"
-                          style={{ color: "#eb90ff", marginBottom: "0px" }}
-                        >
-                          - Bangladesh Technical Education Board
-                        </h3>
+                      <h2
+  className="cert-body-title"
+  style={{ fontWeight: 700, color: "#fbd9ad" }}
+>
+  Basic MS Excel Course
+</h2>
+
+<h3
+  className="cert-body-subtitle"
+  style={{ color: "#eb90ff", marginBottom: "0px" }}
+>
+  - WorkIndia
+</h3>
                       </div>
                     </div>
                   </Fade>
@@ -116,7 +119,7 @@ export default function Certification() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href="https://www.hackerrank.com/certificates/af66a6615aad"
+                          href="https://www.hackerrank.com/certificates/9f42c0a4a4c0"
                           target="_blank"
                           rel="noopener noreferrer"
                         >

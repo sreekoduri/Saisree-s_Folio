@@ -28,16 +28,17 @@ const About = () => {
           <Col md={7}>
             <Fade duration={3000}>
               <p className="home-about-body">
-                My name is <b className="purple">MD Mafujul Hasan </b> 
-                  and I am a <b className="purple">Computer Science and Engineering </b> 
-                    student at <b className="purple">Sonargaon University </b>
-                      in Dhaka, Bangladesh.
+                My name is <b className="purple">Saisree Koduri </b> 
+                  and I am a <b className="purple">Electronics and Communication Engineering </b> 
+                    student at <b className="purple">Rajiv Gandhi University of Knowledge Technologies (RGUKT),</b>
+                    Nuzvid,Andhra Pradesh.
+                    
                 <br />
                 <br />
                         I am proficient in various programming languages such as &nbsp;
                   <b className="purple">
                     {" "}
-                    C, C++, Java, Python, HTML, CSS, PHP, and JavaScript.{" "}
+                    Python, HTML, CSS,and JavaScript.{" "}
                   </b>
                 <br />
                 <br />
@@ -45,7 +46,7 @@ const About = () => {
 
                   <b className="purple">
                     {" "}
-                    NodeJS, ReactJS, OpenCV, Pandas, and NumPy.{" "}
+                    NodeJS, ReactJS{" "}
                   </b>
                 <br />
                 <br />

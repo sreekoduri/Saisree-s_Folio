@@ -2,10 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
-import hd from "../../images/hd.png";
-import pp from "../../images/portfolio.png";
+
+import sales from "../../images/Sales.png";
+import student from "../../images/student.png";
+import inventory from "../../images/inventory.png";
+import invoice from "../../images/invoice.png";
+
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -24,10 +26,11 @@ export default function Projects() {
                 <h1 className="aboutme-heading">Projects</h1>
               </Zoom>
             </Col>
+
+            {/* Project 1 */}
             <Col md={3}>
               <Fade bottom>
                 <div
-                  key={1}
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
@@ -35,28 +38,24 @@ export default function Projects() {
                   }}
                 >
                   <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
+                    <h5 style={{ color: "#fbd9ad" }}>
+                      Sales & Order Management System
                     </h5>
-                    <img src={nyc} alt={nyc} />
+
+                    <img src={sales} alt="Sales Management Dashboard" />
+
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
-                        }
+                        href="https://github.com/sreekoduri/MKSALESANDMANAGEMENT"
                         target="_blank"
                         rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
+                        className="iconBtn"
                       >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
+                        <FaCode className="icon" />
                       </a>
                     </div>
                   </div>
+
                   <h6>
                     <p
                       className="project--desc"
@@ -66,14 +65,12 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      The New Year Countdown Project is more than just a
-                      celebration; it's a testament to the human spirit and our
-                      shared aspirations for a brighter future. So, mark your
-                      calendars and get ready to be part of this global
-                      extravaganza as we count down to a new year filled with
-                      endless possibilities.
+                      A full stack MERN application for managing sales,
+                      inventory, customer orders, and product tracking with
+                      secure authentication and admin dashboard features.
                     </p>
                   </h6>
+
                   <div
                     className="project--lang"
                     style={{
@@ -82,15 +79,16 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript
+                    React, Node.js, Express.js, MongoDB
                   </div>
                 </div>
               </Fade>
             </Col>
+
+            {/* Project 2 */}
             <Col md={3}>
               <Fade bottom>
                 <div
-                  key={1}
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
@@ -98,28 +96,24 @@ export default function Projects() {
                   }}
                 >
                   <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Heart Disease Prediction
+                    <h5 style={{ color: "#fbd9ad" }}>
+                      Student Management Portal
                     </h5>
-                    <img src={hd} alt={hd} />
+
+                    <img src={student} alt="Student Management" />
+
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
-                        }
+                        href="https://github.com/sreekoduri/Student_Management_Portal"
                         target="_blank"
                         rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
+                        className="iconBtn"
                       >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
+                        <FaCode className="icon" />
                       </a>
                     </div>
                   </div>
+
                   <h6>
                     <p
                       className="project--desc"
@@ -129,13 +123,12 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Use of AI and Machine Learning: Artificial intelligence
-                      and machine learning are already being used in healthcare
-                      to help predict heart disease. In the future, these
-                      technologies could become more advanced, enabling more
-                      accurate predictions of heart disease risk.
+                      A responsive web application to manage student records,
+                      attendance, and academic details with CRUD operations and
+                      database integration.
                     </p>
                   </h6>
+
                   <div
                     className="project--lang"
                     style={{
@@ -144,15 +137,16 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Pandas, Matplotlib, Scikit-Learn
+                    React, JavaScript, MongoDB
                   </div>
                 </div>
               </Fade>
             </Col>
+
+            {/* Project 3 */}
             <Col md={3}>
               <Fade bottom>
                 <div
-                  key={1}
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
@@ -160,28 +154,24 @@ export default function Projects() {
                   }}
                 >
                   <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                    <h5 style={{ color: "#fbd9ad" }}>
+                      Inventory Management System
                     </h5>
-                    <img src={ci} alt={ci} />
+
+                    <img src={inventory} alt="Inventory" />
+
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
-                        }
+                        href="https://github.com/sreekoduri/MK_INVENTORY"
                         target="_blank"
                         rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
+                        className="iconBtn"
                       >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
+                        <FaCode className="icon" />
                       </a>
                     </div>
                   </div>
+
                   <h6>
                     <p
                       className="project--desc"
@@ -191,13 +181,12 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
+                      An inventory tracking application used to manage product
+                      stock, availability, and inventory updates efficiently
+                      using database-driven architecture.
                     </p>
                   </h6>
+
                   <div
                     className="project--lang"
                     style={{
@@ -206,15 +195,16 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
+                    React, Node.js, MongoDB
                   </div>
                 </div>
               </Fade>
             </Col>
+
+            {/* Project 4 */}
             <Col md={3}>
               <Fade bottom>
                 <div
-                  key={1}
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
@@ -222,28 +212,24 @@ export default function Projects() {
                   }}
                 >
                   <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
+                    <h5 style={{ color: "#fbd9ad" }}>
+                      Invoice Generator
                     </h5>
-                    <img src={pp} alt={pp} />
+
+                    <img src={invoice} alt="Invoice Generator" />
+
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
-                        }
+                        href="https://github.com/sreekoduri/Invoice-Generator-Development-Update"
                         target="_blank"
                         rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
+                        className="iconBtn"
                       >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
+                        <FaCode className="icon" />
                       </a>
                     </div>
                   </div>
+
                   <h6>
                     <p
                       className="project--desc"
@@ -253,11 +239,12 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
+                      A Python-based invoice generation system that automates
+                      billing, invoice creation, and calculation processes for
+                      efficient business operations.
                     </p>
                   </h6>
+
                   <div
                     className="project--lang"
                     style={{
@@ -266,12 +253,13 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, SCSS, React, JavaScript
+                    Python, Automation
                   </div>
                 </div>
               </Fade>
             </Col>
           </Row>
+
           <div className="blog--viewAll">
             <Link to="/projectspage">
               <button className="btn btn-primary">
