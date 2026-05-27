@@ -1,54 +1,118 @@
-## 📅 Daily Progress - May 06, 2026
+# SAISREE KODURI | Portfolio Website
 
-### 🚀 What I worked on today
-- Continued development of my personal portfolio website
-- Fixed React image loading issue using proper import method
-- Updated Navbar with profile logo and improved alignment
-- Converted profile image into a circular design using CSS
-- Enhanced UI styling for better visual appearance
-- Added MongoDB to Technical Journey timeline
-- Improved overall code structure and readability
+![Portfolio](./src/images/portfolio.png)
+
+## 🚀 Live Portfolio
+
+Coming Soon on Vercel
 
 ---
 
-### 🧠 What I learned
-- Correct way to handle images in React (`import` vs relative paths)
-- CSS techniques for creating circular profile images
-- Better component structuring in React
-- Improving UI/UX using small styling changes
+## 📌 About This Project
+
+This is my personal portfolio website developed using React.js.  
+It showcases my:
+
+- Projects
+- Technical Skills
+- Certifications
+- Resume
+- Full Stack Development Experience
+
+The portfolio is designed with a modern responsive UI and smooth animations.
 
 ---
 
-### 🛠️ Tech Stack Used
+## 🛠️ Technologies Used
+
 - React.js
-- JavaScript (ES6+)
+- JavaScript
+- HTML5
 - CSS3
 - Bootstrap
 - React Icons
+- React Reveal
 
 ---
 
-### ⚡ Challenges Faced
-- Image not displaying due to incorrect path usage
-- Styling issues with profile image shape
-- Navbar alignment inconsistencies
+## 💼 Featured Projects
+
+### 🔹 Sales & Order Management System
+MERN stack application for sales tracking, inventory management, customer billing, and order handling.
+
+### 🔹 Inventory Management System
+Warehouse inventory and stock management application with product tracking features.
+
+### 🔹 Invoice Generator
+Python automation project for generating invoices and billing reports automatically.
+
+### 🔹 POS Label Automation
+Python-based automation system for generating POS labels efficiently.
+
+### 🔹 Interactive Age Calculator
+Responsive JavaScript web application that calculates exact age dynamically.
+
+### 🔹 Personal Portfolio
+Modern React portfolio website showcasing projects, skills, and certifications.
 
 ---
 
-### ✅ How I solved them
-- Used `import` for images instead of relative path
-- Applied `border-radius: 50%` and `object-fit: cover`
-- Adjusted flexbox alignment in Navbar
+## 📂 Project Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sreekoduri/Saisree-s_Folio.git
+```
+
+Go to project folder:
+
+```bash
+cd Saisree-s_Folio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm start
+```
 
 ---
 
-### 🎯 Tomorrow’s Goals
-- Add animations to portfolio (hover / transitions)
-- Improve responsiveness for mobile devices
-- Enhance project section UI
-- Optimize performance and loading speed
+## 📦 Build for Production
+
+```bash
+npm run build
+```
 
 ---
 
-### 💡 Quote of the Day
-"Consistency is what transforms average into excellence."
+## 🌐 Deployment
+
+This portfolio can be deployed easily using:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+---
+
+## 📧 Contact
+
+### SAISREE KODURI
+
+- GitHub: https://github.com/sreekoduri
+- LinkedIn: Add Your LinkedIn Link
+- Email: Add Your Email
+
+---
+
+## ⭐ Thank You
+
+Thank you for visiting my portfolio repository.
