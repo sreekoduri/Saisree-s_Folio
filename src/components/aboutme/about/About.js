@@ -1,69 +1,70 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
-import Slide from "react-reveal/Slide";
-import Fade from "react-reveal/Fade";
+import { Container, Row, Col } from "react-bootstrap";
+
 const About = () => {
   return (
     <div>
       <Container>
-        {/* <Slide left > */}
         <Row className="mt-5">
           <Col md={5}>
-            {/* <GreetingLottie animationPath="/lottie/coding.json" /> */}
-
-            <Slide left>
-              <lottie-player
-                src="https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json"
-                background="transparent"
-                speed="1"
-                style={{ width: "100%", height: "90%" }}
-                loop
-                autoplay
-              ></lottie-player>
-            </Slide>
+            <lottie-player
+              src="https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json"
+              background="transparent"
+              speed="1"
+              style={{ width: "100%", height: "90%" }}
+              loop
+              autoplay
+            ></lottie-player>
           </Col>
 
           <Col md={7}>
-            <Fade duration={3000}>
-              <p className="home-about-body">
-                My name is <b className="purple">Saisree Koduri </b> 
-                  and I am a <b className="purple">Electronics and Communication Engineering </b> 
-                    student at <b className="purple">Rajiv Gandhi University of Knowledge Technologies (RGUKT),</b>
-                    Nuzvid,Andhra Pradesh.
-                    
-                <br />
-                <br />
-                        I am proficient in various programming languages such as &nbsp;
-                  <b className="purple">
-                    {" "}
-                    Python, HTML, CSS,and JavaScript.{" "}
-                  </b>
-                <br />
-                <br />
-                I also have experience working with frameworks and libraries such as &nbsp;
+            <p className="home-about-body">
+              My name is <b className="purple">Saisree Koduri</b>
+              and I am an{" "}
+              <b className="purple">
+                Electronics and Communication Engineering
+              </b>
+              student at{" "}
+              <b className="purple">
+                Rajiv Gandhi University of Knowledge Technologies (RGUKT)
+              </b>
+              , Nuzvid, Andhra Pradesh.
 
-                  <b className="purple">
-                    {" "}
-                    NodeJS, ReactJS{" "}
-                  </b>
-                <br />
-                <br />
-                Whenever possible, I also apply my passion for developing
-                products with &nbsp;
-                  <b className="purple">
-                    {" "}
-                    Modern Javascript Library and Frameworks.
-                  </b>
-                <br />
-                <br />In my free time, I enjoy learning new technologies and &nbsp;
-                  <b className="purple">building new web technologies and products. </b>
-              </p>
-            </Fade>
+              <br />
+              <br />
+
+              I am proficient in various programming languages such as
+              <b className="purple">
+                Python, HTML, CSS, and JavaScript.
+              </b>
+
+              <br />
+              <br />
+
+              I also have experience working with frameworks and libraries such as
+              <b className="purple">
+                NodeJS, ReactJS
+              </b>
+
+              <br />
+              <br />
+
+              Whenever possible, I also apply my passion for developing products
+              with
+              <b className="purple">
+                Modern Javascript Library and Frameworks.
+              </b>
+
+              <br />
+              <br />
+
+              In my free time, I enjoy learning new technologies and
+              <b className="purple">
+                building new web technologies and products.
+              </b>
+            </p>
           </Col>
         </Row>
-        {/* </Slide> */}
       </Container>
     </div>
   );
