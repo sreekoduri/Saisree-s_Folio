@@ -3,86 +3,163 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+
 import PersonIcon from "@mui/icons-material/Person";
-import { Link } from "react-router-dom";
+import WorkIcon from "@mui/icons-material/Work";
 import StarIcon from "@mui/icons-material/Star";
+import { Link } from "react-router-dom";
 import Flip from "react-reveal/Flip";
+
+// Import Certificate Images
+import manakiranaCertificate from "../../../images/Experience_Letter.png";
+import embeddedCertificate from "../../../images/Embedded_Intern.jpg";
 
 function ExperienceJourney() {
   return (
-    <div className="mt-5">
-      <div>
+    <div className="mt-5 container">
+      {/* Navigation Buttons */}
+      <div className="text-center mb-4">
         <Link className="btn btn-primary m-1" to="/educationjourney">
           Educational Journey
         </Link>
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
+
+        <Link className="btn btn-success m-1" to="/experiencejourney">
           Experience Journey
         </Link>
+
         <Link className="btn btn-primary m-1" to="/technicaljourney">
           Technical Journey
         </Link>
+
         <Link className="btn btn-primary m-1" to="/projectjourney">
           Project Journey
         </Link>
       </div>
-      <div className="mt-5">
+
+      {/* Heading */}
+      <div className="mt-5 text-center">
         <Flip top cascade>
-          <h1>Experience Journey</h1>
+          <h1 className="fw-bold">Experience Journey</h1>
         </Flip>
       </div>
+
       <VerticalTimeline>
+        {/* ManaKirana Internship */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderLeft: "7px solid  rgb(78 22 112)" }}
-          date="2023 - Continuing"
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<PersonIcon />}
+          contentStyle={{
+            background: "rgb(78 22 112)",
+            color: "#fbd9ad",
+          }}
+          contentArrowStyle={{
+            borderRight: "7px solid rgb(78 22 112)",
+          }}
+          date="May 2025 - June 2026"
+          iconStyle={{
+            background: "rgb(78 22 112)",
+            color: "#fbd9ad",
+          }}
+          icon={<WorkIcon />}
         >
-          <h5 className="vertical-timeline-element-title">
-            Study World
-          </h5>
-          <h6 className="vertical-timeline-element-subtitle mt-2">
-            Branch Manager & Student Counsellor
+          <h4 className="fw-bold">ManaKirana Pvt. Ltd.</h4>
+
+          <h6 className="mt-2 text-warning">
+            Full Stack Developer Intern
           </h6>
-          <p>• Provide Education Counselling to students and guardians for study abroad.</p>
-          <p>• Providing information about Universities/Colleges, Course/Fees, Admissions, Visa procedures etc.</p>
-          <p>• Effective follow-ups with the prospective students/guardians.</p>
-          <p>• Provide daily, Weekly, monthly, and yearly reporting about all operational activities.</p>
-          <p>• Processing student visa applications based on entry requirements and admissions procedures and 
-            enhance their chances of success in interviews by developing their skills.</p>
-          <p>• Preparing applications for admission into different foreign universities.</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2021 - 2022"
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<PersonIcon />}
-        >
-          <h5 className="vertical-timeline-element-title">
-            Excel Telecom (Pvt.) Limited - (National Distributor of SAMSUNG in Bangladesh)
-          </h5>
-          <h6 className="vertical-timeline-element-subtitle mt-2">
-            Management of Information System
-          </h6>
-          <p>• Proficient in developing, deploying and managing computerized systems that gather, retain, evaluate and exhibit 
-            data to facilitate the achievement of organizational aims and objectives.</p>
-          <p>• Proficient in collecting and organizing data from diverse sources, utilizing statistical techniques and software 
-            tools for data analysis and creating comprehensive reports and presentations that showcase significant insights and trends.</p>
-          <p>• Consistently completed assigned tasks in a timely and efficient manner as directed by management, while maintaining 
-            effective communication between the company and employees.</p>
-          <p>• Proficient in monitoring daily business operation costs, verifying and evaluating accounting transactions updates, 
-            and providing corresponding reports to top management.</p>
-          <p>• Skilled in collecting and compiling monthly reports, conducting inventory analysis for month-end, quarterly, 
-            and year-end closing, and submitting reports in accordance with management requirements.</p>
-          <p>• Proficient in developing and maintaining various reporting dashboard, technical support to end-users, 
-            diagnosing hardware and software issues, and collaborating with IT teams to promptly resolve system-related problems.</p>
+
+          <p>
+            • Worked on frontend and backend web application development.
+          </p>
+
+          <p>
+            • Developed and maintained application modules and APIs.
+          </p>
+
+          <p>
+            • Managed database operations and improved user interfaces.
+          </p>
+
+          <p>
+            • Collaborated with the development team and solved technical
+            issues efficiently.
+          </p>
+
+          <p>
+            • Gained hands-on experience in full stack development and project
+            maintenance.
+          </p>
+
+          {/* Certificate */}
+          <div className="text-center mt-4">
+            <img
+              src={manakiranaCertificate}
+              alt="ManaKirana Internship"
+              className="img-fluid rounded shadow"
+              style={{ maxHeight: "350px" }}
+            />
+          </div>
         </VerticalTimelineElement>
 
+        {/* Embedded Internship */}
         <VerticalTimelineElement
-          iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: "rgb(20 45 90)",
+            color: "#ffffff",
+          }}
+          contentArrowStyle={{
+            borderLeft: "7px solid rgb(20 45 90)",
+          }}
+          date="May 2024 - June 2024"
+          iconStyle={{
+            background: "rgb(20 45 90)",
+            color: "#ffffff",
+          }}
+          icon={<PersonIcon />}
+        >
+          <h4 className="fw-bold">Robocoupler Pvt. Ltd.</h4>
+
+          <h6 className="mt-2 text-warning">
+            Industrial Internship Training Program (IITP)
+          </h6>
+
+          <p>
+            • Completed internship training in Real Time Embedded Systems.
+          </p>
+
+          <p>
+            • Worked on prototype simulation design using Proteus for Power
+            Grid applications.
+          </p>
+
+          <p>
+            • Improved practical knowledge in embedded systems and circuit
+            simulation.
+          </p>
+
+          <p>
+            • Learned hardware-software integration and real-time system
+            concepts.
+          </p>
+
+          {/* Certificate */}
+          <div className="text-center mt-4">
+            <img
+              src={embeddedCertificate}
+              alt="Embedded Internship"
+              className="img-fluid rounded shadow"
+              style={{ maxHeight: "350px" }}
+            />
+          </div>
+        </VerticalTimelineElement>
+
+        {/* End Icon */}
+        <VerticalTimelineElement
+          iconStyle={{
+            background: "#fbd9ad",
+            color: "rgb(78 22 112)",
+          }}
           icon={<StarIcon />}
         />
       </VerticalTimeline>

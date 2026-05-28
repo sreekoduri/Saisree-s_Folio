@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.87e2094c.css",
+    "main.js": "/static/js/main.ded18946.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/inventory.png": "/static/media/inventory.1913b7a79c769235da7a.png",
+    "static/media/poslabel.png": "/static/media/poslabel.1d10d67b29af60d2116e.png",
+    "static/media/invoice.png": "/static/media/invoice.5f86735dd6d09e84fca0.png",
+    "static/media/Experience_Letter.png": "/static/media/Experience_Letter.e3a626a5ef80856b2d10.png",
+    "static/media/Sales.png": "/static/media/Sales.7f837a30e1698bcd81a0.png",
+    "static/media/portfolio.png": "/static/media/portfolio.37b3297bccf33a0eb71e.png",
+    "static/media/ssit_certificate.png": "/static/media/ssit_certificate.ebd0e34311e390c5db57.png",
+    "static/media/pc.png": "/static/media/pc.06ad21ea51446dc1062f.png",
+    "static/media/Vs.png": "/static/media/Vs.19edc3fbac1c451f289d.png",
+    "static/media/pg.png": "/static/media/pg.9f8f5cd98ce5726b002f.png",
+    "static/media/Embedded_Intern.jpg": "/static/media/Embedded_Intern.176eac6f123ff149d33a.jpg",
+    "static/media/Profile.png": "/static/media/Profile.fd8b15b0f1015663d8a0.png",
+    "static/media/github.png": "/static/media/github.345dc4a21070f9083ca7.png",
+    "static/media/NPTEL_Certification.jpg": "/static/media/NPTEL_Certification.8cec9ed9c13098857a4a.jpg",
+    "static/media/Codec_technologies.jpg": "/static/media/Codec_technologies.d7b38eae8eb44a23e497.jpg",
+    "static/media/excel_certificate.jpeg": "/static/media/excel_certificate.3c7e6b87674877f58d1a.jpeg",
+    "static/media/age.png": "/static/media/age.465963fd7cd429178fdc.png",
+    "static/media/pre.svg": "/static/media/pre.e4c81c26304bc309eb55.svg",
+    "static/media/h3.jpg": "/static/media/h3.dc52d5d40a40b13154b0.jpg",
+    "static/media/Saisree_Koduri_resume_2026.pdf": "/static/media/Saisree_Koduri_resume_2026.ada163838ce1c9ce78c9.pdf",
+    "static/media/chorme.svg": "/static/media/chorme.76eb99c03649b560eca4188fff132dcf.svg",
+    "index.html": "/index.html",
+    "main.87e2094c.css.map": "/static/css/main.87e2094c.css.map",
+    "main.ded18946.js.map": "/static/js/main.ded18946.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87e2094c.css",
+    "static/js/main.ded18946.js"
+  ]
+}
