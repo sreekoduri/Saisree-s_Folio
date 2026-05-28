@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import Particle from "../../Particle";
-import pdf from "../../assets/Saisree_Koduri_resume_2026.pdf";
+import pdf from "../../assets/Saisree's_Resume.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 
 
