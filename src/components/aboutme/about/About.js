@@ -19,8 +19,8 @@ const About = () => {
 
           <Col md={7}>
             <p className="home-about-body">
-              My name is <b className="purple">Saisree Koduri</b>
-              and I am an{" "}
+              My name is <b className="purple">Saisree Koduri </b>
+               and I am an{" "}
               <b className="purple">
                 Electronics and Communication Engineering
               </b>
