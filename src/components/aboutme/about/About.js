@@ -24,7 +24,7 @@ const About = () => {
               <b className="purple">
                 Electronics and Communication Engineering
               </b>
-              student at{" "}
+                student at{" "}
               <b className="purple">
                 Rajiv Gandhi University of Knowledge Technologies (RGUKT)
               </b>
@@ -33,9 +33,9 @@ const About = () => {
               <br />
               <br />
 
-              I am proficient in various programming languages such as
+              I am proficient in various programming languages such as  
               <b className="purple">
-                Python, HTML, CSS, and JavaScript.
+                  Python, HTML, CSS, and JavaScript.
               </b>
 
               <br />
@@ -43,7 +43,7 @@ const About = () => {
 
               I also have experience working with frameworks and libraries such as
               <b className="purple">
-                NodeJS, ReactJS
+                  NodeJS, ReactJS
               </b>
 
               <br />
@@ -52,7 +52,7 @@ const About = () => {
               Whenever possible, I also apply my passion for developing products
               with
               <b className="purple">
-                Modern Javascript Library and Frameworks.
+                   Modern Javascript Library and Frameworks.
               </b>
 
               <br />
@@ -60,7 +60,7 @@ const About = () => {
 
               In my free time, I enjoy learning new technologies and
               <b className="purple">
-                building new web technologies and products.
+                   building new web technologies and products.
               </b>
             </p>
           </Col>
